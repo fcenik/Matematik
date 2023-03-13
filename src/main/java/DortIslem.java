@@ -73,7 +73,7 @@ public class DortIslem {
     // return ile toplama isleminin sonucu dondurulmelidir!
     private static int topla(int ilkSayi, int ikinciSayi) {
 
-        return 0;
+        return ilkSayi+ikinciSayi;
     }
 
 
@@ -82,7 +82,7 @@ public class DortIslem {
     // return ile cikarma isleminin sonucu dondurulmelidir!
     private static int cikar(int ilkSayi, int ikinciSayi) {
 
-        return 0;
+        return ilkSayi-ikinciSayi;
     }
 
 
@@ -91,7 +91,7 @@ public class DortIslem {
     // return ile carpma isleminin sonucu dondurulmelidir!
     private static int carp(int ilkSayi, int ikinciSayi) {
 
-        return 0;
+        return ilkSayi*ikinciSayi;
     }
 
     // Erhan
@@ -99,7 +99,7 @@ public class DortIslem {
     // return ile bolme isleminin sonucu dondurulmelidir!
     private static double bol(int ilkSayi, int ikinciSayi) {
 
-        return 0;
+        return ilkSayi/ikinciSayi;
     }
 
 
@@ -128,7 +128,7 @@ public class DortIslem {
     // return ile sonuc dondurulur!
     private static double usHesapla(int ilkSayi, int ikinciSayi) {
 
-        return 0;
+        return Math.pow(ilkSayi, ikinciSayi);
     }
 
 
@@ -137,7 +137,7 @@ public class DortIslem {
     // return kucuk sayi dondurur!
     private static int kucukSayi(int ilkSayi, int ikinciSayi) {
 
-        return 0;
+        return Math.min(ilkSayi, ikinciSayi);
     }
 
 
@@ -146,7 +146,7 @@ public class DortIslem {
     // return buyuk sayi dondurur!
     private static int buyukSayi(int ilkSayi, int ikinciSayi) {
 
-        return 0;
+        return Math.max(ilkSayi, ikinciSayi);
     }
 
 
