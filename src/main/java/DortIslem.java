@@ -117,7 +117,9 @@ public class DortIslem {
     // return ile hesaplanan deger dondurulmelidir!
     private static int modHesapla(int ilkSayi, int ikinciSayi) {
 
-        return 0;
+        System.out.println("modHesapla by Bahadir");
+
+        return ilkSayi%ikinciSayi;
     }
 
 
