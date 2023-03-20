@@ -119,7 +119,7 @@ public class DortIslem {
 
         System.out.println("modHesapla by Bahadir");
 
-        return ilkSayi%ikinciSayi;
+        return ilkSayi % ikinciSayi;
     }
 
 
@@ -145,8 +145,11 @@ public class DortIslem {
     // verilen iki sayidan buyuk olani bulur
     // return buyuk sayi dondurur!
     private static int buyukSayi(int ilkSayi, int ikinciSayi) {
-
-        return 0;
+        if (ilkSayi > ikinciSayi) {
+            return ilkSayi;
+        } else {
+            return ikinciSayi;
+        }
     }
 
 
