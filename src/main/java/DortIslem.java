@@ -98,8 +98,9 @@ public class DortIslem {
     // bolme islemini yapar, ilk sayi bolunen, ikici sayi bolen
     // return ile bolme isleminin sonucu dondurulmelidir!
     private static double bol(int ilkSayi, int ikinciSayi) {
-
-        return 0;
+        double ilk = ilkSayi;
+        double ikinci = ikinciSayi;
+        return ilk / ikinci;
     }
 
 
